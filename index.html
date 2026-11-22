@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pace – Support</title>
+  <meta name="description" content="Support-Seite der App Pace – Lauf-Coach für Apple Watch und iPhone.">
+  <style>
+    :root {
+      --bg0: #000000;
+      --bg1: #111113;
+      --line: #2c2c30;
+      --volt: #d7ff3c;
+      --t1: #f2f2ee;
+      --t2: #a1a1a6;
+      --t3: #5a5a5e;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg0);
+      color: var(--t1);
+      font-family: ui-rounded, -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .wrap { max-width: 660px; margin: 0 auto; padding: 48px 20px 80px; }
+    header { text-align: center; margin-bottom: 40px; }
+    h1 { font-size: 48px; font-weight: 800; letter-spacing: 1px; }
+    h1 span { color: var(--volt); }
+    .tagline { color: var(--t2); font-size: 17px; margin-top: 6px; }
+    .card {
+      background: var(--bg1);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+    .card h2 { font-size: 18px; margin-bottom: 10px; }
+    .card p { color: var(--t2); font-size: 15px; }
+    .card p + p { margin-top: 10px; }
+    strong { color: var(--t1); }
+    a { color: var(--volt); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { list-style: none; margin-top: 8px; }
+    li { color: var(--t2); font-size: 15px; padding: 4px 0; }
+    li::before { content: "●  "; color: var(--volt); font-size: 10px; vertical-align: 2px; }
+    .q { margin-top: 14px; }
+    .q strong { display: block; margin-bottom: 2px; }
+    footer { text-align: center; margin-top: 40px; color: var(--t3); font-size: 13px; }
+    footer a { color: var(--t3); text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>PACE<span>.</span></h1>
+      <p class="tagline">Lauf-Coach für Apple Watch und iPhone</p>
+    </header>
+
+    <div class="card">
+      <h2>Über die App</h2>
+      <p>Pace zeigt dir während des Laufs auf einen Blick, ob du im Ziel bist – Volt heisst im Ziel,
+         Rot heisst Abweichung. Mit Pace-Ziel und Geisterläufer, Puls-Zonen, Intervallen und
+         Ziel-Workouts, Ansagen über Kopfhörer und Haptik am Handgelenk.</p>
+      <ul>
+        <li>Kein Konto, keine Werbung, kein Tracking</li>
+        <li>Pläne auf dem iPhone, gelaufen wird mit der Uhr</li>
+        <li>Alle Daten bleiben auf deinen Geräten, in iCloud und in Apple Health</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Support &amp; Kontakt</h2>
+      <p>Du hast eine Frage, einen Fehler gefunden oder einen Wunsch? Schreib mir – ich freue mich über jede Rückmeldung:</p>
+      <p>📧 <a href="mailto:jan.schwob@yahoo.com?subject=Pace">jan.schwob@yahoo.com</a></p>
+    </div>
+
+    <div class="card">
+      <h2>Häufige Fragen</h2>
+      <div class="q"><strong>Wie kommt Pace auf die Apple Watch?</strong>
+        <p>Öffne auf dem iPhone die Watch-App, scrolle zu „Verfügbare Apps“ und tippe bei Pace auf „Installieren“.
+           Ist die automatische App-Installation eingeschaltet, erscheint Pace von selbst.</p></div>
+      <div class="q"><strong>Warum höre ich keine Ansagen?</strong>
+        <p>Ansagen kommen über Bluetooth-Kopfhörer, die mit der Uhr verbunden sind. Ohne Kopfhörer gibt es Signale per Haptik am Handgelenk.</p></div>
+      <div class="q"><strong>Wie bekomme ich eine natürlichere Stimme?</strong>
+        <p>Auf dem iPhone unter Einstellungen › Bedienungshilfen › Gesprochene Inhalte › Stimmen › Deutsch eine Premium-Stimme laden.
+           Dann in Pace unter Uhr › Ansagen &amp; Haptik › Stimme auswählen.</p></div>
+      <div class="q"><strong>Wie exportiere ich einen Lauf?</strong>
+        <p>Lauf in der iPhone-App öffnen, oben rechts auf Teilen tippen und GPX oder FIT wählen – zum Beispiel für Strava, Komoot oder Garmin Connect.</p></div>
+      <div class="q"><strong>Was brauche ich?</strong>
+        <p>Ein iPhone mit iOS 26 und eine Apple Watch mit watchOS 26.</p></div>
+    </div>
+
+    <div class="card">
+      <h2>Datenschutz</h2>
+      <p>Pace hat keinen Server und der Entwickler erhält keine deiner Daten.
+         Die vollständige Erklärung: <a href="privacy.html">Datenschutzerklärung / Privacy Policy</a></p>
+    </div>
+
+    <footer>
+      <p>© 2026 Jan Schwob · <a href="privacy.html">Datenschutz</a></p>
+    </footer>
+  </div>
+</body>
+</html>
